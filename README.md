@@ -3,7 +3,7 @@ Create a docker image with R, Julia, and shiny-server for deploying R-based shin
 
 ## Installation
 ```sh
-git clone https://github.com/Rulia
+git clone https://github.com/jjlynch2/Rulia
 docker build -t myapp .
 docker run -d -p 4444:3838 myapp
 ```
